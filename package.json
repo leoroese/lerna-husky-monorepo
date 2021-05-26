@@ -1,0 +1,36 @@
+{
+  "name": "lerna-husky-monorepo",
+  "version": "1.0.0",
+  "description": "Lerna Husky Monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoroese/lerna-husky-monorepo.git"
+  },
+  "keywords": [
+    "Lerna",
+    "Husky",
+    "Monorepo"
+  ],
+  "author": "Leonardo Roese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoroese/lerna-husky-monorepo/issues"
+  },
+  "homepage": "https://github.com/leoroese/lerna-husky-monorepo#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

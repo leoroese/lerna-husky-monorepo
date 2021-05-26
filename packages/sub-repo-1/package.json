@@ -1,0 +1,12 @@
+{
+  "name": "sub-repo-1",
+  "version": "1.0.0",
+  "description": "Sub repo 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "precommit":"echo 'Sub Repo 1 Precommit Running!'"
+  },
+  "author": "Leonardo Roese",
+  "license": "MIT"
+}
